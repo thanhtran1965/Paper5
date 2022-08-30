@@ -1,16 +1,4 @@
-% %% COMPUTE THE NORMALIZED CROSS-CORRELATION OF TWO AUDIO FILES
-% [x,fs]=audioread("D:\BackupData\3rdYear2021\29.Paper5\ValmetDataset\Experiment21Sept27\Valmet_Ori_Gen_2class_Sept27\Normal\033.wav");
-% [y,fs]=audioread("D:\BackupData\3rdYear2021\29.Paper5\ValmetDataset\Experiment21Sept27\Valmet_Ori_Gen_2class_Sept27\Normal\normal_65.wav");
-% lx = length(x);
-% ly = length(y);
-% samples = 1:min(lx,ly);
-%  subplot(3,1,1), plot (x(samples));
-%  subplot(3,1,2), plot (y(samples));
-%  [C1, lag1] = xcorr(x(samples),y(samples));
-%   subplot(3,1,3), plot(lag1/fs,C1);
-%   ylabel("Amplitude"); grid on
-%    title("Cross-correlation ")
-   
+%% COMPUTE THE NORMALIZED CROSS-CORRELATION OF TWO AUDIO FILES
 %% Measuring Signal Similarities
 % https://www.mathworks.com/help/signal/ug/measuring-signal-similarities.html
 [x1,fs1]=audioread("D:\BackupData\3rdYear2021\29.Paper5\ValmetDataset\Experiment21Sept27\Valmet_Ori_Gen_2class_Sept27\Break\fault_65.wav");
