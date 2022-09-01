@@ -8,8 +8,6 @@
 ## Dataset:
 Valmet's sound dataset can find using this link: https://zenodo.org/record/6478574#.Ymj7ONpByUk
 
-### Note: All above datasets need to download and extract to the [data](https://github.com/nhattruongpham/soundSepsound/tree/main/data) folder.
-
 ## Usage:
 
 - Run '''VAE_GenSound3May2022''' to synthesize sounds using autoencoder
