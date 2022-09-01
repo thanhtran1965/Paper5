@@ -14,7 +14,7 @@ Valmet's sound dataset can find using this link: https://zenodo.org/record/64785
 
 - Run '''CROSS_CORRELATION.m''' to measure sound similarities between the original sound and the synthesized sound
 
-- Run ```TransferLearning.mlx``` to reproduce the experiments and results with pre-trained CNNs.
+- Run ```TransferLearning.mlx``` to reproduce the experiments and results with pre-trained CNNs. "findLayersToReplace.m" and "freezeWeights.m" are functions to support ```TransferLearning.mlx```
 
 ## Citation
 If you use this code/data or part of it, please cite the following paper:
