@@ -10,7 +10,7 @@ Valmet's sound dataset can find using this link: https://zenodo.org/record/64785
 
 ## Usage:
 
-- Run ```VAE_GenSound3May2022``` to synthesize sounds using autoencoder
+- Run ```vae-gensound5Sept2022.ipynb``` to synthesize sounds using autoencoder
 
 - Run ```CROSS_CORRELATION.m``` to measure sound similarities between the original sound and the synthesized sound
 
