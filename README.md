@@ -16,6 +16,9 @@ Valmet's sound dataset can find using this link: https://zenodo.org/record/64785
 
 - Run ```TransferLearning.mlx``` to reproduce the experiments and results with pre-trained CNNs. ```findLayersToReplace.m``` and ```freezeWeights.m``` are functions to support ```TransferLearning.mlx```
 
+## Note
+- The clean version with detailed instruction will be release later.
+
 ## Citation
 If you use this code/data or part of it, please cite the following paper:
 
