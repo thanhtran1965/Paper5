@@ -6,6 +6,7 @@
 - MATLAB 2021a.
 
 ## This repository is structured as follow:
+```
 |-dataset
 |----MelSpectrograms
 |--------Original_AND_Synthesized_Sound   # The Mel Spectrograms of the augmented dataset that includes both original sounds and augmented sounds
@@ -20,8 +21,7 @@
 |----TransferLearning.mlx  # Sound classification using pretrained network (can use any pre-trained network by selecting the one you want)
 |----findLayersToReplace.m  # Supported function for ``TransferLearning.mlx```
 |----freezeWeights.m  # Supported function for ``TransferLearning.mlx```
-
-
+```
 
 ## Dataset:
 Valmet's sound dataset can find using this link: https://zenodo.org/record/6478574#.Ymj7ONpByUk
