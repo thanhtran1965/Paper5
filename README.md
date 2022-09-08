@@ -5,6 +5,24 @@
 
 - MATLAB 2021a.
 
+## This repository is structured as follow:
+|-dataset
+|----MelSpectrograms
+|--------Original_AND_Synthesized_Sound   # The Mel Spectrograms of the augmented dataset that includes both original sounds and augmented sounds
+|--------Original_Sounds   # Mel Spectrograms of original sounds with low pass filter and high pass filter
+|--------WITHOUT_Low_HighPassFilter   # # Mel Spectrograms of original sounds WITHOUT low pass filter and high pass filter
+|----Original_AND_Synthesized_Sound   # The augmented dataset that includes both original sounds and synthesized sounds from variational autoencoder
+|----Original_Sounds        # Sound dataset included 2 classes (break and normal) from Valmet AB                  
+|-notebook
+|----vae-gensound5Sept2022.ipynb # variational autoencoder to synthesize new sounds
+|-matlab
+|----CROSS_CORRELATION.m   # Measuring sound similarities between an original sounds and a synthesized sound
+|----TransferLearning.mlx  # Sound classification using pretrained network (can use any pre-trained network by selecting the one you want)
+|----findLayersToReplace.m  # Supported function for ``TransferLearning.mlx```
+|----freezeWeights.m  # Supported function for ``TransferLearning.mlx```
+
+
+
 ## Dataset:
 Valmet's sound dataset can find using this link: https://zenodo.org/record/6478574#.Ymj7ONpByUk
 
