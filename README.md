@@ -39,10 +39,11 @@ Valmet's sound dataset can find using this link: https://zenodo.org/record/64785
 
 ## Citation
 If you use this code/data or part of it, please cite the following paper:
+```
 @article{tran2022artificial,
   title={An artificial neural network-based system for detecting machine failures using tiny sound data: A case study},
   author={Tran, Thanh and Bader, Sebastian and Lundgren, Jan},
   journal={arXiv preprint arXiv:2209.11527},
   year={2022}
 }
-
+```
