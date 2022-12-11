@@ -47,3 +47,7 @@ If you use this code/data or part of it, please cite the following paper:
   year={2022}
 }
 ```
+Published version
+```
+Will be published soon by the 24th IEEE International Symposium on Multimedia (ISM2022)
+```
